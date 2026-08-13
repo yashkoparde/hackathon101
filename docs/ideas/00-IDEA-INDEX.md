@@ -22,41 +22,41 @@ There are no "build a decentralized social network on the blockchain" ideas. The
 
 ```mermaid
 mindmap
- root((Idea Index))
- Productivity Tools
- Customer Support
- Accounts Payable
- AI and Agents
- Deal Intelligence
- Content Strategy
- Competitive Intel
- Meeting Prep
- Memory Agents
- 09. Sales and Revenue
- 10. Marketing and Content
- 11. Engineering and DevOps
- 12. Operations and Support
- 13. Product and Strategy
- Fintech
-  Budgeting
-  Payments
-  14. AI Finance Projects
- Health and Wellness
- Fitness
- Habits
- Sustainability and Climate
- Resource Tools
- Impact
- Education
- Learning
- Teaching
- Social Good
- Inclusion
- Accessibility
- Developer Tools
- Incident Response
- Code Review
- DevOps Pipeline
+  root((Idea Index))
+    Productivity Tools
+      Customer Support
+      Accounts Payable
+    AI and Agents
+      Deal Intelligence
+      Content Strategy
+      Competitive Intel
+      Meeting Prep
+    Memory Agents
+      09. Sales and Revenue
+      10. Marketing and Content
+      11. Engineering and DevOps
+      12. Operations and Support
+      13. Product and Strategy
+    Fintech
+      Budgeting
+      Payments
+      14. AI Finance Projects
+    Health and Wellness
+      Fitness
+      Habits
+    Sustainability and Climate
+      Resource Tools
+      Impact
+    Education
+      Learning
+      Teaching
+    Social Good
+      Inclusion
+      Accessibility
+    Developer Tools
+      Incident Response
+      Code Review
+      DevOps Pipeline
 ```
 
 ---
