@@ -1,13 +1,4 @@
----
-title: Yash Hackathon Guide
-author: yashkoaprde
-last_updated: 2026-08-12
----
-
-<div align="center">
- <img src="public/banner.png" alt="Yash Hackathon Guide Banner" />
-
- # Yash Hackathon Guide
+# The Hackathon101
  
 </div>
 
