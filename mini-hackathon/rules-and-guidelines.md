@@ -9,7 +9,7 @@ To ensure a fair, competitive, and supportive learning environment for all build
 ## 1. Original Code & Academic Integrity
 
 ```
-ALLOWED & ENCOURAGED ✅                          STRICTLY FORBIDDEN ❌
+ALLOWED & ENCOURAGED                           STRICTLY FORBIDDEN 
 ─────────────────────────────────────────────   ─────────────────────────────────────────────
 • Public open-source libraries (npm, pip)       • Cloning a complete pre-existing repo
 • Official framework starters (Next.js, Vite)   • Re-submitting code from an earlier event

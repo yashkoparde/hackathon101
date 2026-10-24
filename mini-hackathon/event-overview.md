@@ -5,7 +5,7 @@
 The **Mini Hackathon** is the operational flagship event designed specifically to lower the barrier to entry for early-stage engineering students (including first-year undergraduates). This format combines rapid prototyping, active mentorship, and structured evaluation.
 
 > [!IMPORTANT]
-> **📅 EVENT SPECIFICATION**  
+> ** EVENT SPECIFICATION**  
 > **Date:** Saturday, 31 October 2026  
 > **Time:** 10:00 AM – 4:00 PM IST (6-Hour Build Sprint)  
 > **Venue:** Campus Innovation Lab / Seminar Hall  

@@ -46,7 +46,7 @@ Understanding the event category helps you pick the right stack, team, and minds
 
 ## 3. Myths vs. Reality
 
-| Common Myth ❌ | Ground Reality ✅ |
+| Common Myth  | Ground Reality  |
 |---|---|
 | *"I need to know everything before I register."* | Hackathons are learning engines. Most winning teams learn new libraries and APIs *during* the sprint. |
 | *"Only 10x senior full-stack developers win."* | Teams that win usually do so because of **problem clarity, clean execution, and presentation**, not sheer lines of code. |

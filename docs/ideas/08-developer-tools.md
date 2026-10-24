@@ -4,7 +4,7 @@ author: yashkoaprde
 part_of: Yash Hackathon Guide
 ---
 
-# ️ Developer Tools
+# Developer Tools
 
 [← Back to Idea Index](00-IDEA-INDEX.md) · [← Social Good & Accessibility](07-social-good-and-accessibility.md)
 

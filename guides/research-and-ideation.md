@@ -26,7 +26,7 @@ flowchart TD
 
 ### Contrast: Bad Framing vs Sharp Framing
 
-| Dimension | Poor Problem Framing ❌ | Sharp Problem Framing ✅ |
+| Dimension | Poor Problem Framing  | Sharp Problem Framing  |
 |---|---|---|
 | **User Persona** | *"Students in colleges"* | *"First-year engineering students navigating multi-department lab registrations"* |
 | **Pain Point** | *"It is difficult to know exam updates"* | *"Students incur Rs 500 late registration penalties because circular PDFs are buried in portal subpages"* |

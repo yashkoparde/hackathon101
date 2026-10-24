@@ -43,7 +43,7 @@ flowchart TD
     Q1 -- "Overly restricted to legacy stack" --> Skip["SKIP / LOW PRIORITY<br/>(Restricts creativity & modern stacks)"]
     Q1 -- "Open or aligned with team stack" --> Q2{"Are there experienced mentors available?"}
     Q2 -- "No mentors / purely asynchronous" --> Q3{"Is there a specific sponsor API bounty?"}
-    Q2 -- "Yes, hands-on mentorship" --> Green["APPLY IMMEDIATELY ✅<br/>(High learning ROI)"]
+    Q2 -- "Yes, hands-on mentorship" --> Green["APPLY IMMEDIATELY <br/>(High learning ROI)"]
     Q3 -- "Yes, clear side prizes" --> Green
     Q3 -- "No, vague judging & no support" --> Skip
 ```

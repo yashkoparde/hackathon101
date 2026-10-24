@@ -5,7 +5,7 @@
 
 ---
 
-## 🧭 Visual Slide Deck Architecture
+## Visual Slide Deck Architecture
 
 ```mermaid
 flowchart LR

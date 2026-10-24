@@ -5,7 +5,7 @@
 ---
 
 ```markdown
-# 🚀 [Project Name]
+# [Project Name]
 
 > [One-sentence punchy description of what the project does and who it helps]
 
@@ -16,14 +16,14 @@
 
 ---
 
-## 📅 Event Context
+## Event Context
 - **Event:** Mini Hackathon (Saturday, 31 October 2026, 10:00 AM – 4:00 PM)
 - **Track:** [e.g. Track 1: Campus & EdTech / Track 2: Civic Tech / Track 3: AI for Good]
 - **Team Name:** [Your Team Name] (Table #[X])
 
 ---
 
-## 📌 Problem & Impact
+## Problem & Impact
 
 Briefly explain the problem:
 - **The Challenge:** [Describe the core pain point]
@@ -32,7 +32,7 @@ Briefly explain the problem:
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
 - **Feature 1:** [Description of primary capability]
 - **Feature 2:** [Description of intelligence / automation capability]
@@ -40,7 +40,7 @@ Briefly explain the problem:
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ```
 [ Frontend: Next.js + Tailwind ] ──► [ Backend: FastAPI (Python) ] ──► [ Database: Supabase ]
@@ -57,7 +57,7 @@ Briefly explain the problem:
 
 ---
 
-## 🚀 Quickstart & Local Setup
+## Quickstart & Local Setup
 
 ### Prerequisites
 - Node.js 18+ and npm/pnpm
@@ -105,7 +105,7 @@ Open `http://localhost:3000` in your browser.
 
 ---
 
-## 👥 The Team
+## The Team
 
 - **[Member 1 Name]** — Frontend Engineering & UI/UX ([GitHub](https://github.com/username))
 - **[Member 2 Name]** — Backend & API Infrastructure ([GitHub](https://github.com/username))
@@ -114,7 +114,7 @@ Open `http://localhost:3000` in your browser.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```

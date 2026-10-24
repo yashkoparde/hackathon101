@@ -28,7 +28,7 @@ flowchart TD
 ```
 
 If your project is an automated document intelligence scanner, your MVP is:  
-**Upload sample document ➔ Run extraction pipeline ➔ Display validated insight card.**  
+**Upload sample document -> Run extraction pipeline -> Display validated insight card.**  
 You do NOT need email verification, password reset tokens, or billing tiers.
 
 ---
