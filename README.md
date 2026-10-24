@@ -47,16 +47,66 @@ gantt
 
 ## 🏆 INVICTUS Hackathons Playbook
 
-The official **INVICTUS Hackathons Playbook** — student guides, rapid MVP engineering frameworks, [iNSIGHTS AI](https://insights-ai.info) research workflows, and the turnkey operating manual for INVICTUS mini hackathons.
+The official **INVICTUS Hackathons Playbook** (invictus-hackathons-playbook/) — student guides, rapid MVP engineering frameworks, [iNSIGHTS AI](https://insights-ai.info) research workflows, and the turnkey operating manual for INVICTUS mini hackathons.
 
 👉 **[Explore the full INVICTUS Hackathons Playbook ➔](invictus-hackathons-playbook/README.md)**
 
-| Section | Link | What It Covers |
-|---|---|---|
-| **Student Guides** | [**Browse Guides**](invictus-hackathons-playbook/guides/) | [What are Hackathons](invictus-hackathons-playbook/guides/what-are-hackathons.md) • [Finding Hackathons](invictus-hackathons-playbook/guides/finding-hackathons.md) • [Research & Ideation](invictus-hackathons-playbook/guides/research-and-ideation.md) • [Building an MVP](invictus-hackathons-playbook/guides/building-an-mvp.md) • [Pitching & Demos](invictus-hackathons-playbook/guides/pitching-and-demos.md) |
-| **Resources & AI** | [**Browse Resources**](invictus-hackathons-playbook/resources/) | [Tools & Platforms](invictus-hackathons-playbook/resources/tools-and-platforms.md) • [Learning Resources](invictus-hackathons-playbook/resources/learning-resources.md) • [iNSIGHTS AI Platform Guide](invictus-hackathons-playbook/resources/insights-ai.md) |
-| **Mini Hackathon** | [**Operating Manual**](invictus-hackathons-playbook/mini-hackathon/) | [Event Overview](invictus-hackathons-playbook/mini-hackathon/event-overview.md) • [Rules & Guidelines](invictus-hackathons-playbook/mini-hackathon/rules-and-guidelines.md) • [Timeline & Pacing](invictus-hackathons-playbook/mini-hackathon/timeline.md) • [Judging Rubric](invictus-hackathons-playbook/mini-hackathon/judging-criteria.md) • [Organizer Checklist](invictus-hackathons-playbook/mini-hackathon/organizer-checklist.md) |
-| **Field Templates** | [**Ready-to-Use Templates**](invictus-hackathons-playbook/templates/) | [Problem Statement](invictus-hackathons-playbook/templates/problem-statement.md) • [MVP Planning](invictus-hackathons-playbook/templates/mvp-planning.md) • [Pitch Deck](invictus-hackathons-playbook/templates/pitch-deck.md) • [Project README](invictus-hackathons-playbook/templates/project-readme.md) • [Judging Scorecard](invictus-hackathons-playbook/templates/judging-scorecard.md) |
+`
+invictus-hackathons-playbook/
+├── guides/               # Core student curriculum & methodology
+│   ├── what-are-hackathons.md
+│   ├── finding-hackathons.md
+│   ├── research-and-ideation.md
+│   ├── building-an-mvp.md
+│   └── pitching-and-demos.md
+├── resources/            # Tools, platforms, and iNSIGHTS AI integration
+│   ├── tools-and-platforms.md
+│   ├── learning-resources.md
+│   └── insights-ai.md
+├── mini-hackathon/       # Operational manual for hosting events
+│   ├── event-overview.md
+│   ├── rules-and-guidelines.md
+│   ├── timeline.md
+│   ├── judging-criteria.md
+│   ├── submission-guidelines.md
+│   └── organizer-checklist.md
+└── templates/            # Ready-to-use markdown templates
+    ├── problem-statement.md
+    ├── mvp-planning.md
+    ├── pitch-deck.md
+    ├── project-readme.md
+    └── judging-scorecard.md
+`
+
+### 📂 Playbook Directory Index
+
+#### 📘 [1. Guides (guides/)](invictus-hackathons-playbook/guides/)
+- 📄 [**what-are-hackathons.md**](invictus-hackathons-playbook/guides/what-are-hackathons.md) — What hackathons are, formats (software, AI, civic tech), myths vs reality, beginner tips.
+- 📄 [**finding-hackathons.md**](invictus-hackathons-playbook/guides/finding-hackathons.md) — Discovery platforms (Devfolio, Unstop, Devpost), evaluation matrix, team formation.
+- 📄 [**research-and-ideation.md**](invictus-hackathons-playbook/guides/research-and-ideation.md) — Dissecting problem statements, market gaps, target users, research with iNSIGHTS AI.
+- 📄 [**building-an-mvp.md**](invictus-hackathons-playbook/guides/building-an-mvp.md) — The Ruthless Scoping Rule, tech stacks (Next.js, FastAPI, Supabase), API contracts.
+- 📄 [**pitching-and-demos.md**](invictus-hackathons-playbook/guides/pitching-and-demos.md) — The 3-minute pitch formula, live demo defense, judge Q&A, post-hackathon journey.
+
+#### 🛠️ [2. Resources & AI (
+esources/)](invictus-hackathons-playbook/resources/)
+- 📄 [**tools-and-platforms.md**](invictus-hackathons-playbook/resources/tools-and-platforms.md) — UI libraries (shadcn/ui, Tailwind), BaaS (Supabase, Neon), AI APIs (Groq, HF), hosting (Vercel).
+- 📄 [**learning-resources.md**](invictus-hackathons-playbook/resources/learning-resources.md) — Framework tutorials, open-source repos to study, Git commands, .env.example setup.
+- 📄 [**insights-ai.md**](invictus-hackathons-playbook/resources/insights-ai.md) — Deep dive into [insights-ai.info](https://insights-ai.info): Deep Search, Document Intelligence, PredictX.
+
+#### ⚡ [3. Mini Hackathon Operating Manual (mini-hackathon/)](invictus-hackathons-playbook/mini-hackathon/)
+- 📄 [**event-overview.md**](invictus-hackathons-playbook/mini-hackathon/event-overview.md) — Purpose, first-year focus, eligibility, team size, themes, and 5-phase structure.
+- 📄 [**rules-and-guidelines.md**](invictus-hackathons-playbook/mini-hackathon/rules-and-guidelines.md) — Original code policy, permissible boilerplates, AI ethics, disqualification rules.
+- 📄 [**timeline.md**](invictus-hackathons-playbook/mini-hackathon/timeline.md) — 6-Hour Express Schedule, 24-Hour Hackathon Timeline, hour-by-hour milestone checklist.
+- 📄 [**judging-criteria.md**](invictus-hackathons-playbook/mini-hackathon/judging-criteria.md) — 100-point rubric (Relevance 25, Prototype 30, Innovation 20, Demo 15, Learning 10).
+- 📄 [**submission-guidelines.md**](invictus-hackathons-playbook/mini-hackathon/submission-guidelines.md) — Mandatory deliverables (Repo, README, Live MVP, Slides, Demo Video) & late policy.
+- 📄 [**organizer-checklist.md**](invictus-hackathons-playbook/mini-hackathon/organizer-checklist.md) — Step-by-step checklist for pre-event, venue AV/power, sprint execution, and awards.
+
+#### 📋 [4. Field Templates (	emplates/)](invictus-hackathons-playbook/templates/)
+- 📄 [**problem-statement.md**](invictus-hackathons-playbook/templates/problem-statement.md) — Problem Statement Analysis, User Persona, Competitor Gap Matrix, Validation log.
+- 📄 [**mvp-planning.md**](invictus-hackathons-playbook/templates/mvp-planning.md) — Single core user flow spec, Tier 1/2/3 scope cuts, API request/response contracts.
+- 📄 [**pitch-deck.md**](invictus-hackathons-playbook/templates/pitch-deck.md) — 7-slide pitch deck structure with speaking cues and time splits (180 seconds).
+- 📄 [**project-readme.md**](invictus-hackathons-playbook/templates/project-readme.md) — Production-grade GitHub README boilerplate with setup guides and architecture block.
+- 📄 [**judging-scorecard.md**](invictus-hackathons-playbook/templates/judging-scorecard.md) — Official printable/digital judging sheet with rubric weights and feedback sections.
 
 ---
 
