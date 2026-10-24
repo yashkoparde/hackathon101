@@ -45,6 +45,21 @@ gantt
 
 ---
 
+## 🏆 INVICTUS Hackathons Playbook
+
+The official **INVICTUS Hackathons Playbook** — student guides, rapid MVP engineering frameworks, [iNSIGHTS AI](https://insights-ai.info) research workflows, and the turnkey operating manual for INVICTUS mini hackathons.
+
+👉 **[Explore the full INVICTUS Hackathons Playbook ➔](invictus-hackathons-playbook/README.md)**
+
+| Section | Link | What It Covers |
+|---|---|---|
+| **Student Guides** | [**Browse Guides**](invictus-hackathons-playbook/guides/) | [What are Hackathons](invictus-hackathons-playbook/guides/what-are-hackathons.md) • [Finding Hackathons](invictus-hackathons-playbook/guides/finding-hackathons.md) • [Research & Ideation](invictus-hackathons-playbook/guides/research-and-ideation.md) • [Building an MVP](invictus-hackathons-playbook/guides/building-an-mvp.md) • [Pitching & Demos](invictus-hackathons-playbook/guides/pitching-and-demos.md) |
+| **Resources & AI** | [**Browse Resources**](invictus-hackathons-playbook/resources/) | [Tools & Platforms](invictus-hackathons-playbook/resources/tools-and-platforms.md) • [Learning Resources](invictus-hackathons-playbook/resources/learning-resources.md) • [iNSIGHTS AI Platform Guide](invictus-hackathons-playbook/resources/insights-ai.md) |
+| **Mini Hackathon** | [**Operating Manual**](invictus-hackathons-playbook/mini-hackathon/) | [Event Overview](invictus-hackathons-playbook/mini-hackathon/event-overview.md) • [Rules & Guidelines](invictus-hackathons-playbook/mini-hackathon/rules-and-guidelines.md) • [Timeline & Pacing](invictus-hackathons-playbook/mini-hackathon/timeline.md) • [Judging Rubric](invictus-hackathons-playbook/mini-hackathon/judging-criteria.md) • [Organizer Checklist](invictus-hackathons-playbook/mini-hackathon/organizer-checklist.md) |
+| **Field Templates** | [**Ready-to-Use Templates**](invictus-hackathons-playbook/templates/) | [Problem Statement](invictus-hackathons-playbook/templates/problem-statement.md) • [MVP Planning](invictus-hackathons-playbook/templates/mvp-planning.md) • [Pitch Deck](invictus-hackathons-playbook/templates/pitch-deck.md) • [Project README](invictus-hackathons-playbook/templates/project-readme.md) • [Judging Scorecard](invictus-hackathons-playbook/templates/judging-scorecard.md) |
+
+---
+
 ## Interactive Playbook Directory
 
 <details open>
