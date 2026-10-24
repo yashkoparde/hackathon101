@@ -1,73 +1,101 @@
-# Mini Hackathon: Event Timeline
+# Mini Hackathon: Event Timeline & Pacing
 
-> A structured breakdown of phases and milestones to ensure teams pace themselves and ship before the deadline.
+> **Event Date:** Saturday, 31 October 2026 &nbsp;|&nbsp; **Duration:** 10:00 AM – 4:00 PM IST (6-Hour Express Sprint)
 
----
-
-## 1. Master 6-Hour Express Timeline
-
-Ideal for single-day collegiate workshops, internal club challenges, and first-year sprint events:
-
-| Time Slot | Phase / Activity | Milestones & Deliverables |
-|---|---|---|
-| **10:00 AM – 10:20 AM** | **Check-in & Opening Briefing** | Badge collection, Wi-Fi verification, theme release & welcome address |
-| **10:20 AM – 10:45 AM** | **Problem Tracks & Rules Keynote** | Judging rubric explained, MVP expectations clarified, mentor introductions |
-| **10:45 AM – 11:15 AM** | **Ideation & Scope Freeze** | Problem selection, user persona definition, research via [iNSIGHTS AI](https://insights-ai.info) |
-| **11:15 AM – 01:00 PM** | **Build Sprint 1: Core Engine** | GitHub repo created, API contracts locked, database and primary logic built |
-| **12:15 PM – 01:00 PM** | *Mentor Check-in Round 1* | Mentors review project feasibility and suggest scope cuts |
-| **01:00 PM – 01:25 PM** | **Refreshment & Networking Break** | Snacks, hydration, informal peer discussions |
-| **01:25 PM – 03:00 PM** | **Build Sprint 2: UI & Integration** | Connect frontend to backend, test core user flow, handle edge cases |
-| **02:15 PM – 02:45 PM** | *Mentor Check-in Round 2* | Pitch deck review, live demo smoke-testing |
-| **03:00 PM SHARP** | **Code Freeze & Submission Deadline** | GitHub repo pushed, README completed, slide deck submitted to portal |
-| **03:05 PM – 03:45 PM** | **Live Project Pitch & Demos** | 3-minute pitch + 2-minute Q&A per team in front of judging panel |
-| **03:45 PM – 04:00 PM** | **Scoring, Awards & Closing** | Tabulation, winner announcements, certificate distribution & group photo |
+Pacing is the single greatest predictor of hackathon success. Teams that manage their time finish their prototypes with an hour to spare; teams that lose track of time end up debugging CSS when judging begins.
 
 ---
 
-## 2. 24-Hour Weekend Hackathon Timeline
+## 1. Master 6-Hour Express Timeline (31 October 2026)
 
-For full overnight hackathons:
+```mermaid
+gantt
+    title 6-Hour Sprint Schedule: Saturday, 31 October 2026
+    dateFormat HH:mm
+    axisFormat %H:%M
+
+    section Opening
+    Check-in, Desk Setup & Wi-Fi Check :10:00, 20m
+    Tracks, Rules & Rubric Briefing    :10:20, 25m
+
+    section Research
+    Ideation & Scope Freeze (iNSIGHTS AI) :crit, 10:45, 30m
+
+    section Build Sprint 1
+    Backend Setup & Core Engine Sprint :active, 11:15, 60m
+    Mentor Roundtable Check-in Round 1 :crit, 12:15, 45m
+
+    section Break
+    Refreshment, Tea & Networking      :13:00, 25m
+
+    section Build Sprint 2
+    UI Wiring & End-to-End Integration :active, 13:25, 50m
+    Mentor Pitch & Smoke-Test Check-in :crit, 14:15, 30m
+    Offline Backup Video Recording     :crit, 14:45, 15m
+    CODE FREEZE & FINAL SUBMISSION     :crit, 15:00, 5m
+
+    section Showcase
+    Live Presentations & Panel Q&A     :active, 15:05, 40m
+    Scoring Tabulation & Awards        :15:45, 15m
+```
+
+---
+
+## 2. Milestone Pacing & Gate Checkpoints
+
+To ensure your team ships on time, treat each hour as a hard checkpoint gate:
+
+```mermaid
+flowchart TD
+    G1["Gate 1 (10:45 AM)<br/>Problem Locked & One-Sentence Spec Written"] --> G2["Gate 2 (11:15 AM)<br/>Git Repo Cloned & API Contract JSON Agreed"]
+    G2 --> G3["Gate 3 (12:30 PM)<br/>Backend Engine Returning Real Data / Insights"]
+    G3 --> G4["Gate 4 (01:45 PM)<br/>Frontend Wired to Backend Hero Flow"]
+    G4 --> G5["Gate 5 (02:45 PM)<br/>Backup Video Recorded & Zero Critical Crashes"]
+    G5 --> G6["Gate 6 (03:00 PM)<br/>Submission Confirmed on Portal"]
+```
+
+### Detailed Checkpoint Actions:
+
+| Checkpoint | Time Target | Green Signal (On Track) | Red Signal (Action Required) | Emergency Intervention |
+|---|---|---|---|---|
+| **Gate 1: Problem** | 10:45 AM | Specific user persona & acute pain defined | Debating 4 different concepts | Pick the simplest idea with available APIs |
+| **Gate 2: Contract** | 11:15 AM | JSON schemas agreed; branches created | Teammates coding without talking | Sit together for 10 mins to write `schema.json` |
+| **Gate 3: Engine** | 12:30 PM | Primary algorithm or AI response works | Model throws errors or API fails | Replace failing API with cached local mock |
+| **Gate 4: UI Sync** | 01:45 PM | Frontend renders API response on screen | Blank screen / CORS errors | Test API via Postman / bypass CORS in FastAPI |
+| **Gate 5: Defense** | 02:45 PM | 60s backup video recorded; deck ready | Still writing new features | **STOP CODING.** Rehearse pitch immediately |
+| **Gate 6: Submit** | 03:00 PM | Form submitted with public links | Submitting at 03:02 PM | Late penalties apply (-10 pts / 5 mins) |
+
+---
+
+## 3. The 24-Hour Weekend Timeline (Alternative Format)
+
+For multi-day editions:
 
 ```
 DAY 1:
-10:00 AM  Kickoff, Track Announcements & Team Confirmation
-11:00 AM  Ideation, User Validation & Tech Stack Scaffolding
+10:00 AM  Kickoff, Problem Tracks Released & Team Check-in
+11:00 AM  Ideation, User Research & API Contract Definition
 01:00 PM  Lunch & Networking
-02:00 PM  Sprint 1: Core APIs, Schemas & Engine Development
+02:00 PM  Build Sprint 1: Database Schemas & Core Engine
 05:30 PM  Tea Break & Mentor Progress Review 1
-07:00 PM  Sprint 2: UI Assembly & Component Integration
-09:00 PM  Dinner
-10:30 PM  Mid-Sprint Reality Check: Cut non-essential features (Tier 3)
-11:30 PM  Late Night Sprint: End-to-end user flow integration
+07:00 PM  Build Sprint 2: UI Scaffolding & Component Assembly
+09:00 PM  Dinner & Mid-Sprint Scoping Reality Check (Cut Tier 3)
+11:30 PM  Late Night Integration: Connect Frontend to Backend
 
 DAY 2:
-02:00 AM  Midnight Coffee & Git Sync Checkpoint (Prevent merge hell)
-06:00 AM  Breakfast & Final Polish Sprint
-07:30 AM  Dry Run: Test on clean browser window / incognito mode
+02:00 AM  Midnight Sync Checkpoint: Resolve Git merge conflicts
+06:00 AM  Breakfast & Final Bug Bash
+07:30 AM  Dry Run: Test on clean browser / incognito tab
 08:30 AM  Record offline backup demo video
-09:30 AM  CODE FREEZE & FINAL SUBMISSION PORTAL CLOSES
-10:00 AM  Preliminary Judging Heats (Table-to-table rounds)
-01:00 PM  Lunch
-02:00 PM  Grand Finale: Top 10 Teams Pitch on Stage
-03:30 PM  Keynote, Awards Ceremony & Celebration
+09:30 AM  CODE FREEZE & FINAL SUBMISSION PORTAL LOCKS
+10:00 AM  Preliminary Judging Heats
+02:00 PM  Top 10 Teams Stage Pitches
+03:30 PM  Awards & Celebration
 ```
-
----
-
-## 3. Pacing Checklist: Where Your Team Should Be
-
-Keep this milestone checklist visible on your screen during the sprint:
-
-- [ ] **Hour 1:** Problem statement selected and written down in one sentence.
-- [ ] **Hour 2:** Git repository initialized, `.env.example` created, team invited as collaborators.
-- [ ] **Hour 3:** Core logic / API returning mock data successfully.
-- [ ] **Hour 4:** Frontend wired up to display output from backend.
-- [ ] **Hour 5:** End-to-end test passed; pitch deck finalized; backup demo video recorded.
-- [ ] **Hour 6:** Submitted to portal 15 minutes before the cutoff time.
 
 ---
 
 ## 4. Next Steps
 
-- Review the evaluation guidelines: **[Judging Criteria](judging-criteria.md)**
-- Check submission instructions: **[Submission Guidelines](submission-guidelines.md)**
+- Understand the evaluation criteria: **[Judging Criteria](judging-criteria.md)**
+- Review submission rules: **[Submission Guidelines](submission-guidelines.md)**

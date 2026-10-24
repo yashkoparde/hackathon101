@@ -4,7 +4,39 @@
 
 ---
 
-## 1. Frontend & UI/UX Development
+## 1. The Hackathon Stack Landscape
+
+```mermaid
+flowchart TD
+    subgraph UI [1. UI & Client Presentation]
+        U1[Next.js App Router] --- U2[Tailwind CSS] --- U3[shadcn/ui]
+    end
+
+    subgraph Logic [2. API & Core Logic]
+        L1[FastAPI / Python] --- L2[Pydantic v2 Schemas]
+    end
+
+    subgraph Data [3. Database & Caching]
+        D1[Supabase Postgres] --- D2[Upstash Redis]
+    end
+
+    subgraph Intelligence [4. Intelligence & AI]
+        I1[iNSIGHTS AI<br/>Deep Search & Doc Intel] --- I2[Groq / Llama 3]
+    end
+
+    subgraph Deploy [5. Zero-Config Hosting]
+        P1[Vercel Client] --- P2[Render API Server]
+    end
+
+    UI --> Logic
+    Logic --> Data
+    Logic --> Intelligence
+    UI & Logic --> Deploy
+```
+
+---
+
+## 2. Frontend & UI/UX Development
 
 Speed of interface development is paramount in hackathons. These libraries allow you to assemble professional interfaces in minutes:
 
@@ -18,7 +50,7 @@ Speed of interface development is paramount in hackathons. These libraries allow
 
 ---
 
-## 2. Backend, Database & Serverless
+## 3. Backend, Database & Serverless
 
 Reliable data persistence and rapid API generation without complex infrastructure management:
 
@@ -32,7 +64,7 @@ Reliable data persistence and rapid API generation without complex infrastructur
 
 ---
 
-## 3. AI, LLM & Machine Learning APIs
+## 4. AI, LLM & Machine Learning APIs
 
 Inference speed and reliability matter during live evaluations:
 
@@ -45,7 +77,7 @@ Inference speed and reliability matter during live evaluations:
 
 ---
 
-## 4. Hosting & Cloud Deployment
+## 5. Hosting & Cloud Deployment
 
 Never demo on `localhost:3000` when free cloud deployments take under 3 minutes:
 
@@ -56,7 +88,7 @@ Never demo on `localhost:3000` when free cloud deployments take under 3 minutes:
 
 ---
 
-## 5. Free Student Perks & Packs
+## 6. Free Student Perks & Packs
 
 Maximize your student privileges:
 

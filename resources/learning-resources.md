@@ -2,7 +2,7 @@
 
 > "The best hackathon developers are not the ones who memorized documentation; they are the ones who can read official docs and deploy a library within 20 minutes."
 
-A curated library of technical tutorials, open-source project examples, and cheat sheets to prepare your team before and during the hackathon.
+A curated library of technical tutorials, open-source project examples, and cheat sheets to prepare your team before and during the hackathon sprint on **31 October 2026**.
 
 ---
 
@@ -15,6 +15,7 @@ A curated library of technical tutorials, open-source project examples, and chea
 - **[Tailwind CSS Screencasts](https://tailwindcss.com/screencasts):** 5-minute visual guides on building responsive grid systems and complex UI layouts.
 
 ### AI, ML & LLM Engineering
+- **[iNSIGHTS AI Documentation](https://insights-ai.info):** Explore Deep Search, Document Intelligence, and PredictX tool capabilities.
 - **[LangChain Official Documentation](https://python.langchain.com/docs/get_started/introduction):** Quickstarts for building agentic chains, memory buffers, and retrieval-augmented generation (RAG).
 - **[Hugging Face NLP Course](https://huggingface.co/learn/nlp-course):** Practical transformer workflows, tokenizers, and model fine-tuning.
 - **[Pinecone Vector Database Architecture Guide](https://www.pinecone.io/learn/):** Semantic search patterns and vector indexing fundamentals.
@@ -33,30 +34,55 @@ Studying how winning projects structure their code is the fastest way to improve
 
 ---
 
-## 3. Hackathon Cheat Sheets
+## 3. Team Git Collaboration Workflow
 
-Keep these short references handy:
+To avoid merge conflicts at 2:00 PM, follow this team branching model:
 
-### Git Hackathon Commands
+```mermaid
+gitGraph
+    commit id: "Initial Repo Setup"
+    branch feat/api-backend
+    checkout feat/api-backend
+    commit id: "FastAPI schema skeleton"
+    commit id: "Connect iNSIGHTS AI"
+    checkout main
+    branch feat/frontend-ui
+    checkout feat/frontend-ui
+    commit id: "Tailwind & shadcn cards"
+    commit id: "Wire mock response"
+    checkout main
+    merge feat/api-backend id: "Merge Backend (12:30 PM)"
+    checkout feat/frontend-ui
+    merge main id: "Sync Main into Frontend"
+    commit id: "Flip API URL to live"
+    checkout main
+    merge feat/frontend-ui id: "End-to-End Ready (02:00 PM)"
+    commit id: "Final Code Freeze & README (02:45 PM)" tag: "v1.0-submission"
+```
+
+### Git Terminal Cheat Sheet
 ```bash
-# Clone the repository
-git clone <repo-url>
-cd <repo-name>
+# 1. Clone the team repository
+git clone https://github.com/your-team/hackathon-mvp.git
+cd hackathon-mvp
 
-# Create and checkout your feature branch
-git checkout -b feat/core-api
+# 2. Create your isolated feature branch
+git checkout -b feat/hero-flow
 
-# Keep in sync with main before pushing
+# 3. Pull latest changes from main before committing
 git fetch origin
 git merge origin/main
 
-# Stage, commit, and push
+# 4. Stage, commit with conventional message, and push
 git add .
-git commit -m "feat(api): implement mock inference endpoint"
-git push origin feat/core-api
+git commit -m "feat(api): implement document parsing route"
+git push origin feat/hero-flow
 ```
 
-### Environment Variable Checklist
+---
+
+## 4. Environment Variables Checklist
+
 Create a `.env.example` file in your repository root with dummy placeholder keys:
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
@@ -64,11 +90,13 @@ DATABASE_URL=postgresql://user:password@localhost:5432/mydb
 INSIGHTS_AI_API_KEY=your_insights_ai_key_here
 GROQ_API_KEY=your_groq_api_key_here
 ```
-> **Warning:** Never commit `.env` containing live secrets or credentials to public Git repositories.
+
+> [!CAUTION]
+> **Never commit your `.env` file containing live secrets or private tokens to public Git repositories.** Add `.env` to `.gitignore` immediately upon project creation.
 
 ---
 
-## 4. Next Steps
+## 5. Next Steps
 
-- Explore iNSIGHTS AI capabilities: **[iNSIGHTS AI Deep Dive](insights-ai.md)**
+- Explore iNSIGHTS AI platform details: **[iNSIGHTS AI Guide](insights-ai.md)**
 - Review operational rules: **[Rules & Guidelines](../mini-hackathon/rules-and-guidelines.md)**

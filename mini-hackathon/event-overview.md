@@ -2,11 +2,35 @@
 
 > **A beginner-friendly, high-velocity build sprint where students turn real-world problems into working MVPs.**
 
-The **Mini Hackathon** is the operational flagship event of the builder community. Designed specifically to lower the barrier to entry for early-stage engineering students (including first-year undergraduates), this format combines rapid prototyping, active mentorship, and structured evaluation.
+The **Mini Hackathon** is the operational flagship event designed specifically to lower the barrier to entry for early-stage engineering students (including first-year undergraduates). This format combines rapid prototyping, active mentorship, and structured evaluation.
+
+> [!IMPORTANT]
+> **📅 EVENT SPECIFICATION**  
+> **Date:** Saturday, 31 October 2026  
+> **Time:** 10:00 AM – 4:00 PM IST (6-Hour Build Sprint)  
+> **Venue:** Campus Innovation Lab / Seminar Hall  
+> **Format:** In-Person Offline Sprint  
+> **Team Sizing:** 2 to 4 Members per team (Interdisciplinary teams encouraged)  
+> **Registration Fee:** INR 400 per team  
+> **Prize Pool:** INR 5,000 baseline cash pool + Category awards + Official Certificates
 
 ---
 
 ## 1. Objectives & Expected Outcomes
+
+```mermaid
+flowchart LR
+    A["Theoretical Learning"] --> B["Git & GitHub Basics"]
+    B --> C["Rapid MVP Scoping"]
+    C --> D["Working Prototype"]
+    D --> E["Confident Stage Pitch"]
+
+    style A fill:#f5f5f5,stroke:#9e9e9e
+    style B fill:#fff2a6,stroke:#fbc02d
+    style C fill:#e1f5fe,stroke:#0288d1
+    style D fill:#e8f5e9,stroke:#388e3c
+    style E fill:#fce4ec,stroke:#c2185b
+```
 
 ### Core Objectives:
 - **Demystify Building:** Transition students from theoretical classroom programming to shipping functioning applications.
@@ -22,62 +46,47 @@ The **Mini Hackathon** is the operational flagship event of the builder communit
 
 ---
 
-## 2. Participation & Eligibility Guidelines
+## 2. Event Structure & 5-Phase Pipeline
 
-| Parameter | Specification | Notes |
-|---|---|---|
-| **Eligibility** | Open to undergraduate students (Special focus tracks for First-Year engineers) | Valid college ID required at check-in |
-| **Team Size** | 2 to 4 members per team | Cross-department and interdisciplinary teams encouraged |
-| **Individual Registrations** | Allowed during preliminary registration | Placed into team formation mixers during Phase 1 |
-| **Format** | In-person offline event (Campus Innovation Lab / Auditorium) | Power strips, high-speed Wi-Fi, and workspace tables provided |
-| **Registration Fee** | Nominal fee per team (e.g., INR 400; waived for sponsored editions) | Covers event kit, mentor reviews, and refreshments |
-| **Prize Pool** | Cash awards, trophies, certificates, and incubator fast-tracks | Category prizes for Best MVP, Best UI, and Best Research |
+```mermaid
+flowchart TD
+    P1["Phase 1: Check-in & Track Selection<br/>(10:00 - 10:45 AM)"]
+    P2["Phase 2: Research & Ideation with iNSIGHTS AI<br/>(10:45 - 11:15 AM)"]
+    P3["Phase 3: Core MVP Build Sprint & Mentorship<br/>(11:15 AM - 03:00 PM)"]
+    P4["Phase 4: Code Freeze & Submission Verification<br/>(03:00 - 03:05 PM)"]
+    P5["Phase 5: Live Pitch Demonstrations & Awards<br/>(03:05 - 04:00 PM)"]
+
+    P1 --> P2 --> P3 --> P4 --> P5
+```
 
 ---
 
-## 3. Core Themes & Tracks
+## 3. Core Themes & Problem Tracks
 
-Teams choose one track during registration:
+Teams select one track during the kickoff on **31 October 2026**:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                   Hackathon MINI HACKATHON TRACKS                       │
-├─────────────────────┬───────────────────────────┬──────────────────────┤
-│ 1. CAMPUS & EDTECH  │ 2. CIVIC & SUSTAINABILITY │ 3. AI & INTELLIGENCE │
-│ Tools that improve  │ Solutions for local waste,│ Agents, data parsing,│
-│ student life, study │ water, traffic, or citizen│ predictive workflows │
-│ & resource access   │ empowerment               │ using modern APIs    │
-└─────────────────────┴───────────────────────────┴──────────────────────┘
-```
-
-1. **Campus Innovation & Student Productivity:**
-   Automated schedule planners, library seat reservation trackers, peer-to-peer textbook exchanges, club event discovery portals.
-2. **Civic Tech & Regional Solutions:**
-   Pothole detection reporting, regional language citizen helplines, hostel energy efficiency monitors, localized public transport trackers.
-3. **AI for Good & Practical Automation:**
-   Document intelligence for legal/educational PDFs, intelligent summarization bots, predictive inventory assistants for small local retailers.
+| Track | Focus Domain | Sample Problem Statement | Example MVP Solution |
+|---|---|---|---|
+| **Track 1: Campus & EdTech** | Student workflow, administrative friction, peer resources | Students miss elective deadlines due to fragmented noticeboards | Telegram/WhatsApp automated scraper bot with deadline calendar sync |
+| **Track 2: Civic Tech & Regional Impact** | Public infrastructure, waste management, municipal data | Local shopkeepers struggle with complex GST document calculations | Voice-first bilingual receipt parser using OCR & summary API |
+| **Track 3: AI for Good & Practical Automation** | Intelligent parsing, accessibility, predictive tooling | Visually impaired students cannot navigate unstructured syllabus PDFs | Audio-interactive document QA reader powered by [iNSIGHTS AI](https://insights-ai.info) |
 
 ---
 
-## 4. End-to-End Event Phases
+## 4. Participant Deliverables
 
-The hackathon operates in five tightly coordinated phases:
+Before the **3:00 PM Code Freeze** on 31 October 2026, every team must submit:
 
-```
-[ Phase 1 ] ──► [ Phase 2 ] ──► [ Phase 3 ] ──► [ Phase 4 ] ──► [ Phase 5 ]
-Registration &   Research &      MVP Build       Final Code      Evaluation &
-Problem Select    Ideation        Sprint         Submission       Awards
-```
-
-- **Phase 1: Registration & Problem Selection:** Teams confirm seats, choose problem tracks, and establish their team identity.
-- **Phase 2: Research & Ideation:** Teams validate their problem gap, explore prior art, and draft their API contracts (utilizing tools like [iNSIGHTS AI](https://insights-ai.info)).
-- **Phase 3: MVP Development:** The core build sprint with mentor roundtables and progress checkpoints.
-- **Phase 4: Final Submission:** Code freeze, repository push, README verification, and slide deck upload.
-- **Phase 5: Evaluation & Results:** Live presentations, panel Q&A, scoring tabulation, and awards ceremony.
+- [ ] **Public GitHub Repo Link:** Must contain incremental commits authored during the sprint.
+- [ ] **Project README.md:** Follows the [Project README Template](../templates/project-readme.md) with local setup instructions.
+- [ ] **Working Demo URL / Local Executable:** Live deployment on Vercel/Render, or locally running script.
+- [ ] **7-Slide Pitch Deck:** PDF or view-only Google Slides link using the [Pitch Deck Template](../templates/pitch-deck.md).
+- [ ] **60-Second Backup Video:** Screen recording of the working demo stored locally or hosted on Drive/Loom.
 
 ---
 
 ## 5. Next Steps
 
-- Understand event boundaries: **[Rules & Guidelines](rules-and-guidelines.md)**
-- Review the schedule: **[Event Timeline](timeline.md)**
+- Review the code policies and ethics: **[Rules & Guidelines](rules-and-guidelines.md)**
+- Check the exact minute-by-minute schedule: **[Event Timeline](timeline.md)**
+- View the scoring rubric: **[Judging Criteria](judging-criteria.md)**

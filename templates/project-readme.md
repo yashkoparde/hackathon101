@@ -12,6 +12,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com)
 [![Status: Hackathon MVP](https://img.shields.io/badge/Status-Hackathon_MVP-success.svg)]()
+[![Event: 31 Oct 2026](https://img.shields.io/badge/Sprint-31_October_2026-c62828.svg)]()
+
+---
+
+## 📅 Event Context
+- **Event:** Mini Hackathon (Saturday, 31 October 2026, 10:00 AM – 4:00 PM)
+- **Track:** [e.g. Track 1: Campus & EdTech / Track 2: Civic Tech / Track 3: AI for Good]
+- **Team Name:** [Your Team Name] (Table #[X])
 
 ---
 

@@ -1,67 +1,82 @@
 # Mini Hackathon: Judging Criteria & Rubric
 
-> "Working code beats polished slides. Clear problem empathy beats unnecessary buzzwords."
+> **Official Evaluation Rubric for the 31 October 2026 Sprint**  
+> Total: **100 Points** &nbsp;|&nbsp; 3-Minute Live Pitch + 2-Minute Judge Q&A
 
-All submissions are evaluated against an objective, weighted rubric designed to reward working execution, practical problem relevance, and engineering clarity.
+All projects are evaluated against an objective, weighted rubric designed to reward working software, acute problem understanding, and engineering clarity.
 
 ---
 
-## 1. Weighted Evaluation Rubric (Total: 100 Points)
+## 1. Weighted Rubric Distribution
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ Problem Clarity & Relevance                     [ 25 pts ]  │
-├─────────────────────────────────────────────────────────────┤
-│ Working Prototype & Technical Execution         [ 30 pts ]  │
-├─────────────────────────────────────────────────────────────┤
-│ Innovation & Originality                        [ 20 pts ]  │
-├─────────────────────────────────────────────────────────────┤
-│ Live Demo & Presentation Clarity                [ 15 pts ]  │
-├─────────────────────────────────────────────────────────────┤
-│ Team Collaboration & Learning Trajectory        [ 10 pts ]  │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+pie title Evaluation Weight Distribution (Total: 100 Points)
+    "Working Prototype & Execution (30%)" : 30
+    "Problem Clarity & Relevance (25%)" : 25
+    "Innovation & Originality (20%)" : 20
+    "Live Demo & Presentation (15%)" : 15
+    "Team Collaboration & Learning (10%)" : 10
 ```
 
 ---
 
 ## 2. Detailed Scoring Breakdown
 
-### 1. Problem Clarity & Relevance (25 Points)
-- **1–10 pts:** Vague, generic idea with no identified users or evidence of real-world pain.
-- **11–18 pts:** Defined problem, but lacks research into existing alternatives or why current tools fall short.
-- **19–25 pts:** Exceptionally clear, grounded problem. Evidence of user empathy, supported by data or verified research (e.g., via iNSIGHTS AI). Clear target beneficiary.
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 1. Problem Clarity & Relevance                     [25 pts] │
+├─────────────────────────────────────────────────────────────┤
+│ 2. Working Prototype & Technical Execution         [30 pts] │
+├─────────────────────────────────────────────────────────────┤
+│ 3. Innovation & Originality                        [20 pts] │
+├─────────────────────────────────────────────────────────────┤
+│ 4. Live Demo & Presentation Clarity                [15 pts] │
+├─────────────────────────────────────────────────────────────┤
+│ 5. Team Collaboration & Learning                   [10 pts] │
+└─────────────────────────────────────────────────────────────┘
+```
 
-### 2. Working Prototype & Technical Execution (30 Points)
-- **1–10 pts:** Only static mockups or non-functional wireframes; zero live code execution.
-- **11–20 pts:** Partial functionality with broken flows or heavy hardcoded illusions without backend communication.
-- **21–30 pts:** End-to-end working MVP. The hero user flow executes live without crashing. Clean code structure, proper API contracts, and graceful error handling.
+### Criterion 1: Problem Clarity & Relevance (25 Points)
+- **1–10 pts (Poor):** Vague, generic concept ("An app for education"). No specific persona identified; solution in search of a problem.
+- **11–18 pts (Average):** Identifies a real pain point, but lacks research into existing alternatives or market gaps.
+- **19–25 pts (Exceptional):** Laser-focused problem. The team articulates *who* suffers, *why* existing tools fail, and supports their thesis with verified data (e.g. from [iNSIGHTS AI](https://insights-ai.info) Deep Search).
 
-### 3. Innovation & Originality (20 Points)
-- **1–8 pts:** Direct clone of existing widely known apps (e.g., simple clone of Twitter or generic calculator).
-- **9–15 pts:** Standard solution applied to an existing space with minor unique adaptations.
-- **16–20 pts:** Differentiated angle, novel combination of APIs, creative use of AI/document intelligence, or significant UX breakthrough for the target user.
+### Criterion 2: Working Prototype & Technical Execution (30 Points)
+- **1–10 pts (Poor):** Static Figma wireframes or non-interactive HTML mocks only; no working code logic.
+- **11–20 pts (Average):** Partial implementation with broken paths, console errors, or heavy hardcoded illusions without backend API communication.
+- **21–30 pts (Exceptional):** Seamless end-to-end working MVP. The hero user flow executes live without crashing. Clean code structure, proper API contracts, and graceful error handling.
 
-### 4. Live Demo & Presentation Clarity (15 Points)
-- **1–5 pts:** Rushed, confusing, unstructured pitch exceeding time limits; demo failed with no backup.
-- **6–10 pts:** Clear slides, but spent too much time on background and rushed through the product demo.
-- **11–15 pts:** Punchy 3-minute delivery. Uninterrupted live demo, sharp storytelling, and precise answers to technical panel questions.
+### Criterion 3: Innovation & Originality (20 Points)
+- **1–8 pts (Poor):** Direct clone of a known tutorial (e.g., simple to-do list, generic blog, duplicate social media clone).
+- **9–15 pts (Average):** Standard solution with minor cosmetic changes.
+- **16–20 pts (Exceptional):** Differentiated angle, novel combination of APIs, creative use of AI document intelligence, or significant UX breakthrough for the target user.
 
-### 5. Team Collaboration & Learning Trajectory (10 Points)
-- **1–4 pts:** One person did all the talking and coding while other teammates were disengaged.
-- **5–7 pts:** Reasonable team split; basic understanding of components across the team.
-- **8–10 pts:** Outstanding team chemistry. Clear division of roles, evidence of mastering new tools during the sprint, and shared ownership of the codebase.
+### Criterion 4: Live Demo & Presentation Clarity (15 Points)
+- **1–5 pts (Poor):** Disorganized, exceeded the 3-minute limit, slides too text-heavy, live demo failed with no backup video.
+- **6–10 pts (Average):** Clear presentation, but spent 2.5 minutes talking about background slides and rushed through the actual prototype in 30 seconds.
+- **11–15 pts (Exceptional):** Crisp 180-second delivery. Showed working software within the first 60 seconds. Confident, crisp answers to judge technical questions.
+
+### Criterion 5: Team Collaboration & Learning (10 Points)
+- **1–4 pts (Poor):** Only one member spoke; others could not explain what the code does.
+- **5–7 pts (Average):** Decent team effort, but roles were unclear.
+- **8–10 pts (Exceptional):** Excellent team synergy. Clear division of roles, evidence of mastering new libraries during the sprint, and shared ownership of the repository.
 
 ---
 
-## 3. Evaluator Guidance for Judges
+## 3. Judge Score Calibration Matrix
 
-1. **Test the Demo Yourself:** If time permits, click a button or ask the team to input an unusual query to verify live execution.
-2. **Prioritize Honesty:** Respect teams that transparently state what is working vs. what is mocked. Penalize teams that attempt to disguise static HTML mocks as complex real-time AI.
-3. **Calibrate Scoring:** Use the full range of points. A baseline working project should score around 60–70. Scores above 90 are reserved for exceptional, production-grade hackathon execution.
+To prevent score inflation and ensure fairness across judging panels:
+
+| Final Total Score | Interpretation | Expected Distribution |
+|---|---|---|
+| **Below 50** | Non-functioning submission; missing key components | Bottom 10% |
+| **50 – 69** | Partial prototype, basic concept, needs heavy iteration | Typical middle 50% |
+| **70 – 84** | Strong working MVP, good problem framing, stable demo | Top 30% |
+| **85 – 100** | Exceptional, production-ready hackathon execution; podium contender | Top 10% |
 
 ---
 
 ## 4. Next Steps
 
 - Review what teams must submit: **[Submission Guidelines](submission-guidelines.md)**
-- Use the printable scoring form: **[Judging Scorecard Template](../templates/judging-scorecard.md)**
+- Print the scoring sheet: **[Judging Scorecard Template](../templates/judging-scorecard.md)**

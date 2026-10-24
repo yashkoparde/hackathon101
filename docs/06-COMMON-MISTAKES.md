@@ -14,7 +14,7 @@ Things that quietly sink otherwise-good hackathon projects, roughly in order of 
 
 ## 1. Planning Mistakes
 
-- **Picking an idea too big to finish.** The single most common failure. If your app needs 5 different screens to make sense, it's too big. See [How to Pick an Idea](01-HOW-TO-PICK-AN-IDEA.md).
+- **Picking an idea too big to finish.** The single most common failure. If your app needs 5 different screens to make sense, it's too big. See [How to Pick an Idea](../guides/research-and-ideation.md).
 - **No clear owner per task.** "We'll figure it out together" leads to duplicated work and gaps. Assign explicit ownership even in a 2-person team.
 - **Skipping the halfway checkpoint.** Teams that don't stop to honestly assess progress at the midpoint tend to discover they're behind only when it's too late to adjust.
 - **Building breadth before depth.** Five half-working features score worse than one fully-working core loop. Always finish the core loop first.

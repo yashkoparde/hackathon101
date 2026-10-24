@@ -8,26 +8,29 @@ A hackathon project is only as strong as the problem it solves. Judges see hundr
 
 ## 1. Dissecting Problem Statements
 
-Whether an event provides specific problem statements (e.g., Smart India Hackathon PS lists) or an open theme (e.g., "Healthcare for Tier-3 Cities"), systematically deconstruct it:
+Whether an event provides specific problem statements (e.g., Smart India Hackathon PS lists) or an open theme (e.g., "Campus Innovation on 31 October 2026"), systematically deconstruct it:
 
-### The 4-Question Deconstruction Framework
+```mermaid
+flowchart TD
+    A["Raw Track Theme"] --> B["1. WHO is suffering?<br/>(Specific user persona, not 'everyone')"]
+    B --> C["2. WHAT is their workaround?<br/>(Manual registers, messy WhatsApp groups)"]
+    C --> D["3. WHY do existing tools fail?<br/>(Cost, complexity, poor language support)"]
+    D --> E["4. WHAT is the 10x breakthrough?<br/>(The single action that delivers instant value)"]
 
+    style A fill:#fff2a6,stroke:#fbc02d
+    style B fill:#e1f5fe,stroke:#0288d1
+    style C fill:#e8f5e9,stroke:#388e3c
+    style D fill:#fce4ec,stroke:#c2185b
+    style E fill:#d1c4e9,stroke:#512da8,stroke-width:2px
 ```
-┌─────────────────────────────────────────────────────────────┐
-│ 1. WHO is suffering? (Specific user persona, not "everyone")│
-├─────────────────────────────────────────────────────────────┤
-│ 2. WHAT is their current workaround? (Manual, spreadsheets) │
-├─────────────────────────────────────────────────────────────┤
-│ 3. WHY do existing solutions fail? (Cost, complexity, speed)│
-├─────────────────────────────────────────────────────────────┤
-│ 4. WHAT is the minimum breakthrough? (The 10x delta)        │
-└─────────────────────────────────────────────────────────────┘
-```
 
-#### Example Breakdown:
-- **Broad Theme:** "Agritech & Rural Supply Chains"
-- **Bad Problem Framing:** *"Farmers don't have an AI app to track produce prices."* (Vague, ignores ground realities, smartphones, literacy).
-- **Sharp Problem Framing:** *"Smallholder tomato farmers in Kolar district lose 28% of their margins during transit due to volatile local mandi pricing and lack of instant voice-based spot auction updates."*
+### Contrast: Bad Framing vs Sharp Framing
+
+| Dimension | Poor Problem Framing ❌ | Sharp Problem Framing ✅ |
+|---|---|---|
+| **User Persona** | *"Students in colleges"* | *"First-year engineering students navigating multi-department lab registrations"* |
+| **Pain Point** | *"It is difficult to know exam updates"* | *"Students incur Rs 500 late registration penalties because circular PDFs are buried in portal subpages"* |
+| **Solution Metric** | *"An AI portal with lots of features"* | *"A lightweight webhook that parses circular PDFs in under 2 seconds and alerts affected students on Telegram"* |
 
 ---
 
@@ -35,28 +38,22 @@ Whether an event provides specific problem statements (e.g., Smart India Hackath
 
 When your team brainstorms candidate ideas, evaluate each against three intersecting criteria:
 
-```
-              ┌────────────────────────┐
-              │    Problem Urgency     │
-              │  (Real, acute pain)    │
-              └───────────┬────────────┘
-                          │
-                   ┌──────┴──────┐
-                   │  THE SWEET  │
-                   │    SPOT     │
-                   └──────┬──────┘
-                          │
-     ┌────────────────────┴────────────────────┐
-     │                                         │
-┌────┴───────────────────┐       ┌─────────────┴──────────┐
-│ Technical Feasibility  │       │     Demo Wow-Factor    │
-│  (Shippable in 24 hrs) │       │ (Clear impact in 2 min)│
-└────────────────────────┘       └────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph ThreeFilters [The Winning Hackathon Ideation Filter]
+        F1["Filter 1: Problem Urgency<br/>(Real, acute pain with quantifiable loss)"]
+        F2["Filter 2: Technical Feasibility<br/>(Shippable in 6 to 24 hours by your team)"]
+        F3["Filter 3: Demo Wow-Factor<br/>(Clear 'Aha!' moment in under 60 seconds)"]
+    end
+
+    F1 & F2 & F3 --> SweetSpot["THE PODIUM SWEET SPOT<br/>(High urgency + Proven feasibility + High wow factor)"]
+
+    style SweetSpot fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px,color:#1b5e20
 ```
 
 1. **Problem Urgency:** Does someone experience this pain regularly? Are they actively looking for an alternative?
 2. **Technical Feasibility:** Can a working, testable slice of this architecture be developed, configured, and demoed in the time available?
-3. **Demo Wow-Factor:** Can a judge watch the product execute and immediately grasp its value without reading a 20-page manual?
+3. **Demo Wow-Factor:** Can a judge watch the product execute and immediately grasp its value without reading a manual?
 
 ---
 
@@ -77,42 +74,28 @@ You must be prepared with a structured **2x2 Feature & Accessibility Matrix**:
 
 ## 4. Accelerating Research with iNSIGHTS AI
 
-Do not spend 6 hours manually scrolling through hundreds of academic PDFs or search engine ad results. Utilize modern research platforms like **[iNSIGHTS AI](https://insights-ai.info)**:
+Do not spend hours manually scrolling through search engine ad results. Utilize modern research platforms like **[iNSIGHTS AI](https://insights-ai.info)**:
 
-1. **Deep Search:**
-   Input candidate domain queries (e.g., *"Current inefficiencies in VTU student document verification systems"*). Use Deep Search to extract verified sources, existing whitepapers, and documented pain points in seconds.
-2. **Document Intelligence:**
-   Upload government policy documents, complex RFP guidelines, or industry reports. Use question-answering pipelines to extract exact regulatory constraints, data formats, and compliance rules.
-3. **PredictX:**
-   Formulate quantitative hypotheses and examine trend forecasts to validate whether your problem space has expanding demand.
+```mermaid
+flowchart LR
+    Q["1. Domain Search Query"] --> DS["AI Deep Search<br/>(insights-ai.info)"]
+    DS --> DOC["2. Upload Complex Brief"]
+    DOC --> DI["Document Intelligence<br/>(Extract Schemas & Rules)"]
+    DI --> PX["3. Trend Hypothesis"]
+    PX --> PXT["PredictX<br/>(Market Feasibility Metrics)"]
 
----
-
-## 5. Practical Ideation Workflow: Step-by-Step
-
-Follow this sequence during the first 90 minutes of your hackathon:
-
-```
-1. Problem Selection ──► 2. Deep Research ──► 3. Gap Mapping ──► 4. User Persona ──► 5. Lock MVP Scope
+    style DS fill:#e1f5fe,stroke:#0288d1
+    style DI fill:#e8f5e9,stroke:#388e3c
+    style PXT fill:#fff3e0,stroke:#f57c00
 ```
 
-- **Minute 0–20:** Gather 3 potential problem directions.
-- **Minute 20–45:** Run deep searches; verify if existing tools already solve it well. Discard ideas with trivial clones.
-- **Minute 45–65:** Define the exact user persona (e.g., "First-year engineering student trying to find verified project mentors").
-- **Minute 65–80:** Sketch the target user flow from trigger to resolution.
-- **Minute 80–90:** Get team sign-off. Declare ideation complete and transition to architectural wireframing.
+1. **Deep Search:** Run queries to extract verified whitepapers, state regulatory circulars, and documented pain points in seconds.
+2. **Document Intelligence:** Upload heavy PDF guidelines or syllabus files. Extract constraints, edge cases, and parameters directly into database schemas.
+3. **PredictX:** Formulate quantitative hypotheses and examine trend forecasts to validate whether your problem space has expanding demand.
 
 ---
 
-## 6. Common Ideation Mistakes to Avoid
+## 5. Next Steps
 
-- **The "Uber for X" Trap:** Slapping an Uber-style map or Tinder swipe interface on an unrelated domain without understanding operational realities.
-- **The "Blockchain + AI + Quantum + IoT" Kitchen Sink:** Claiming to use every hype buzzword without solving a single problem cleanly.
-- **Boiling the Ocean:** Trying to build an entire operating system, hospital management suite, or autonomous city in 24 hours.
-
----
-
-## 7. Next Steps
-
-- Scope your solution into a concrete prototype: **[Building an MVP](building-an-mvp.md)**
-- Fill out the standardized format: **[Problem Statement Analysis Template](../templates/problem-statement.md)**
+- Scope your solution into an executable prototype: **[Building an MVP](building-an-mvp.md)**
+- Fill out the structured worksheet: **[Problem Statement Analysis Template](../templates/problem-statement.md)**

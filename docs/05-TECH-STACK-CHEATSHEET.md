@@ -6,7 +6,7 @@ part_of: Yash Hackathon Guide
 
 # Tech Stack Cheatsheet
 
-[← Back to README](../README.md) · [← Demo Playbook](04-DEMO-PLAYBOOK.md)
+[← Back to README](../README.md) · [← Demo Playbook](../guides/pitching-and-demos.md)
 
 Fast, boring, reliable defaults by project type. The goal in a hackathon is *speed to a working demo*, not the most impressive architecture.
 

@@ -14,7 +14,7 @@ Here is the secret to this list: **Every single idea here is designed to be fini
 There are no "build a decentralized social network on the blockchain" ideas. These are pragmatic, narrow, scoped-down problems that you can actually build a working demo for in 48 hours.
 
 > [!WARNING]
-> Before picking one, read [How to Pick an Idea](../01-HOW-TO-PICK-AN-IDEA.md). The best pick is usually the one your team has real firsthand experience with, not the "coolest" one on this list.
+> Before picking one, read [How to Pick an Idea](../../guides/research-and-ideation.md). The best pick is usually the one your team has real firsthand experience with, not the "coolest" one on this list.
 
 ---
 

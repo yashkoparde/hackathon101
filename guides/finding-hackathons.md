@@ -10,81 +10,66 @@ Finding the right hackathon is a strategic decision. Applying randomly without e
 
 Keep bookmarks for these platforms to catch application windows early:
 
-### Global & Regional Hubs
+```mermaid
+flowchart TD
+    Hub["Hackathon Discovery Ecosystem"]
+    Hub --> D["Devfolio<br/>(ETHIndia, InOut, Top Collegiate)"]
+    Hub --> U["Unstop<br/>(SIH, Tata, Flipkart, National)"]
+    Hub --> DP["Devpost<br/>(Global Cloud & AI Challenges)"]
+    Hub --> M["MLH<br/>(Major League Hacking Student Circuit)"]
+    Hub --> C["Internal Campus Sprints<br/>(e.g., 31 October 2026 Mini Hackathon)"]
+
+    style Hub fill:#fff2a6,stroke:#fbc02d,stroke-width:2px
+    style C fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+```
 
 | Platform | Primary Focus | Best For | Typical Format |
 |---|---|---|---|
-| **[Devfolio](https://devfolio.co)** | High-quality Indian & global developer hackathons (ETHIndia, HackOut, InOut) | Web3, AI, full-stack, collegiate circuits | In-person & Online |
-| **[Unstop](https://unstop.com)** | Indian university competitions, national corporate challenges (Tata, Flipkart, SIH) | College students, hiring challenges, pan-India competitions | Hybrid / Multi-stage |
-| **[Devpost](https://devpost.com)** | Global software hackathons, sponsored enterprise hackathons | Cloud APIs, LLM hackathons, global submissions | Primarily Online |
-| **[Major League Hacking (MLH)](https://mlh.io)** | Student hackathon league across North America, Europe, and Asia | Collegiate hackathons with workshops, beginner tracks | In-person & Online |
-| **[Kaggle Competitions](https://kaggle.com)** | Data science, machine learning, predictive modeling | Pure ML/DL benchmarks with ground-truth scoring | Online asynchronous |
-| **[DoraHacks](https://dorahacks.io)** | Open-source bounties, Web3 hackathons, research grants | Crypto, distributed systems, public goods | Online & In-person |
+| **[Devfolio](https://devfolio.co)** | High-quality developer hackathons (ETHIndia, HackOut) | Web3, AI, full-stack, collegiate circuits | In-person & Online |
+| **[Unstop](https://unstop.com)** | Indian university competitions & national challenges | College students, hiring challenges, SIH | Hybrid / Multi-stage |
+| **[Devpost](https://devpost.com)** | Global software hackathons & sponsor challenges | Cloud APIs, LLM hackathons, global submissions | Primarily Online |
+| **[Major League Hacking (MLH)](https://mlh.io)** | Student hackathon league across North America, Europe, Asia | Beginner tracks, collegiate workshops | In-person & Online |
+| **Campus Sprints** | Beginner-friendly local collegiate sprints (e.g. 31 Oct 2026) | First-year developers, rapid MVPs | In-Person Labs |
 
 ---
 
-## 2. The Hackathon Evaluation Matrix
+## 2. Event Qualification Decision Tree
 
-Before registering your team, run the event through this 5-point qualification filter:
+Before committing your weekend, run the prospective event through this decision flowchart:
 
-```
-                  ┌───────────────────────────────┐
-                  │ 1. Theme & Problem Alignment  │
-                  ├───────────────────────────────┤
-                  │ 2. Team Eligibility & Sizing  │
-                  ├───────────────────────────────┤
-                  │ 3. Sponsor Tracks & APIs      │
-                  ├───────────────────────────────┤
-                  │ 4. Logistics & Time Investment│
-                  ├───────────────────────────────┤
-                  │ 5. Learning & Mentorship ROI  │
-                  └───────────────────────────────┘
+```mermaid
+flowchart TD
+    Q1{"Is the theme open or strictly restricted?"}
+    Q1 -- "Overly restricted to legacy stack" --> Skip["SKIP / LOW PRIORITY<br/>(Restricts creativity & modern stacks)"]
+    Q1 -- "Open or aligned with team stack" --> Q2{"Are there experienced mentors available?"}
+    Q2 -- "No mentors / purely asynchronous" --> Q3{"Is there a specific sponsor API bounty?"}
+    Q2 -- "Yes, hands-on mentorship" --> Green["APPLY IMMEDIATELY ✅<br/>(High learning ROI)"]
+    Q3 -- "Yes, clear side prizes" --> Green
+    Q3 -- "No, vague judging & no support" --> Skip
 ```
 
-### 1. Theme Alignment & Technical Freedom
-- Does the event mandate a specific stack (e.g., only Flutter, or only a specific vendor's cloud)?
-- Are the problem statements open-ended or rigidly defined? Open tracks offer more room for differentiated storytelling, whereas narrow problem tracks test precision.
-
-### 2. Team Eligibility & Guidelines
-- Check age and academic restrictions (e.g., "First-year engineering students only", "Undergraduates only", or "Open to all professionals").
-- Check team size boundaries (typically 2 to 4 members). Solo hacking is rarely allowed in competitive collegiate finals.
-
-### 3. Sponsor Tracks & Bounty Opportunities
-- Major hackathons often feature **side bounties** (e.g., "Best use of Auth0", "Best application using MongoDB Atlas", "Best iNSIGHTS AI integration").
-- Targeting specific sponsor bounties is a proven strategy for newer teams to win prizes and gain direct recruitment visibility even if they miss the top podium finish.
-
-### 4. Logistics, Travel & Time Commitment
-- For offline hackathons: Are travel stipends, food, Wi-Fi, and sleeping arrangements provided?
-- For online hackathons: Will demo time zones conflict with college schedules or examinations?
-
-### 5. Learning & Mentorship Value
-- Are there seasoned engineering mentors available during the build sprint?
-- The feedback received from a 30-minute mentor review is frequently worth more than winning a minor certificate.
+### The 5-Point Evaluation Filter:
+1. **Theme Alignment & Technical Freedom:** Does the event permit modern tooling (Next.js, FastAPI, Supabase, [iNSIGHTS AI](https://insights-ai.info))?
+2. **Team Sizing & Eligibility:** Does your squad match the eligibility criteria (e.g., first-year undergraduate focus)?
+3. **Sponsor Tracks & Side Bounties:** Are there targeted sponsor bounties (e.g., "Best AI Integration")? Targeting niche bounties is a proven route to winning prizes even if you miss the overall podium.
+4. **Logistics & Health:** For offline events, are electrical surge protectors, Wi-Fi, food, and mentor tables arranged?
+5. **Mentorship ROI:** Will you receive feedback from seasoned engineers that improves your craft?
 
 ---
 
-## 3. Assembling a High-Performing Team
+## 3. Assembling a High-Performing Squad
 
-Building a balanced team is half the battle won. Avoid forming a team of four pure backend engineers who all dislike CSS, or four designers who haven't worked with databases.
+Avoid forming a team of four frontend developers who dislike databases, or four backend developers who cannot style a button.
 
-### The Ideal Hackathon Squad Archetype (3–4 Members)
-
+```mermaid
+flowchart TD
+    subgraph TheBalancedSquad [The 4-Member Winning Squad Archetype]
+        B["1. The Builder (Frontend / UI)<br/>Next.js • Tailwind • shadcn/ui<br/>Zero blank states & smooth interactions"]
+        A["2. The Architect (Backend / AI)<br/>FastAPI • Python • Schemas<br/>API contracts & database pipelines"]
+        S["3. The Storyteller (Product / Pitch)<br/>Problem validation • iNSIGHTS AI research<br/>7-slide deck & stage presentation"]
+        I["4. The Integrator (QA & DevOps)<br/>Edge case testing • Offline backup video<br/>README setup & deployment smoke test"]
+    end
 ```
-        ┌─────────────────────────────────────────────────────────────┐
-        │  1. Frontend / UI Specialist (React / Next.js / Tailwind)    │
-        ├─────────────────────────────────────────────────────────────┤
-        │  2. Backend / API / ML Engineer (Python / FastAPI / Cloud)   │
-        ├─────────────────────────────────────────────────────────────┤
-        │  3. Product Strategist / Researcher / Pitch Lead            │
-        ├─────────────────────────────────────────────────────────────┤
-        │  4. Floating Integrator / Data Wrangler / QA                │
-        └─────────────────────────────────────────────────────────────┘
-```
-
-1. **The Builder (Frontend & UI):** Ensures the interface looks modern, clean, responsive, and easy to interact with within 10 seconds.
-2. **The Architect (Backend & Intelligence):** Connects databases, APIs, LLM endpoints, authentication, and core business algorithms.
-3. **The Storyteller (Product & Pitch):** Validates problem statements, drafts the narrative, creates the slide deck, benchmarks competitors, and delivers the pitch.
-4. **The Integrator (Versatile Generalist):** Tests edge cases, sets up environment variables, writes README documentation, records the backup demo, and assists with blockers.
 
 ---
 

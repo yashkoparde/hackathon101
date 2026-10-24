@@ -1,73 +1,104 @@
 # Mini Hackathon: Organizer Checklist
 
-> "Flawless hackathons do not happen by accident; they happen because every power strip, mentor schedule, and scoring link was tested 48 hours in advance."
-
-This checklist is the operational playbook for lead organizers, track leads, and student coordinators executing mini hackathons and weekend build sprints.
-
----
-
-## 1. Pre-Event Operations (T-14 Days to T-2 Days)
-
-### Event Design & Approvals
-- [ ] Finalize event theme, tracks, and target audience (e.g., First-year undergraduates).
-- [ ] Secure venue booking (Auditorium, Seminar Hall, or Computer Lab) with college administration.
-- [ ] Determine registration pricing (e.g., INR 400 per team) or sponsor subsidies.
-- [ ] Calculate prize pool budget (e.g., INR 5,000 baseline pool) and procure trophies/certificates.
-
-### Platform & Materials Setup
-- [ ] Deploy Google Form or Devfolio portal for team registrations.
-- [ ] Prepare digital posters, QR codes, and WhatsApp/Discord broadcast announcements.
-- [ ] Verify verified tools on [insights-ai.info](https://insights-ai.info) for student workshops.
-- [ ] Print physical assets: participant ID badges, directional signage, WiFi credentials cards.
-
-### Mentors & Judges Coordination
-- [ ] Confirm 3 to 5 technical mentors for mid-sprint architecture reviews.
-- [ ] Confirm 3 external/faculty judges for the final evaluation panel.
-- [ ] Send judges the [Judging Criteria](judging-criteria.md) and [Scorecard Template](../templates/judging-scorecard.md).
+> **Event Date:** Saturday, 31 October 2026 &nbsp;|&nbsp; **Venue:** Campus Innovation Lab / Seminar Hall  
+> The operational playbook for lead organizers, technical coordinators, and volunteer leads.
 
 ---
 
-## 2. Infrastructure & Venue Setup (T-24 Hours to T-1 Hour)
+## 1. Physical Venue & Room Layout
 
-### Technical Logistics
-- [ ] **Power Management:** Verify minimum 1 electrical surge-protected power strip per table (minimum 4 sockets per team).
-- [ ] **Internet Connectivity:** Coordinate with campus IT to ensure dedicated Wi-Fi SSID with captive portal bypassed for hackathon participants.
-- [ ] **AV Equipment:** Test projector HDMI cables, display switchers, cordless microphones, and auditorium audio.
-- [ ] **Backup Dongles:** Keep 2 portable 5G hotspots at the organizer desk for emergency Wi-Fi failover.
+Ensure tables are organized with adequate space for mentor walkthroughs and power cord runs:
 
-### Hospitality & Medical
-- [ ] Arrange water dispensers, tea/coffee station, and packaged snacks for breaks.
-- [ ] Stock first-aid kit with basic medication (pain relief, bandages, motion sickness remedies).
-- [ ] Confirm clean restroom access and campus security clearance for late-running events.
-
----
-
-## 3. Event Day Execution (T-0)
-
-### Registration & Kickoff (09:30 AM – 10:45 AM)
-- [ ] Check-in desk verifies student IDs and assigns table numbers.
-- [ ] Distribute event swag, badges, and Wi-Fi access cards.
-- [ ] Deliver opening keynote: explain judging rubric, code policies, and schedule.
-- [ ] Officially start the sprint countdown timer on the main display screen.
-
-### Sprint Monitoring & Mentorship (11:15 AM – 02:45 PM)
-- [ ] Launch Mentor Check-in Round 1 (Hour 1.5): Ensure every team has locked scope.
-- [ ] Serve refreshments and monitor room energy.
-- [ ] Announce *"Code Freeze Warning: 60 minutes remaining"* at 02:00 PM.
-- [ ] Announce *"Code Freeze Warning: 15 minutes remaining"* at 02:45 PM.
-- [ ] Lock submission form at 03:00 PM Sharp.
-
-### Judging & Tabulation (03:05 PM – 04:00 PM)
-- [ ] Enforce strict 3-minute pitch timer + 2-minute Q&A buzzer per team.
-- [ ] Tabulate digital scorecards in real-time on the master evaluation spreadsheet.
-- [ ] Resolve any score ties with the head judge.
-- [ ] Announce winners, award trophies/certificates, capture high-res group photos.
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       MAIN PROJECTION SCREEN & STAGE                        │
+│                           [ Podium & HDMI Hub ]                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│   [ Table 1 ]       [ Table 2 ]       [ Table 3 ]       [ Table 4 ]         │
+│   (4 Sockets)       (4 Sockets)       (4 Sockets)       (4 Sockets)         │
+│                                                                             │
+│   [ Table 5 ]       [ Table 6 ]       [ Table 7 ]       [ Table 8 ]         │
+│   (4 Sockets)       (4 Sockets)       (4 Sockets)       (4 Sockets)         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│   [ Mentor / Organizer Desk ]               [ Refreshment & Hydration Bar ] │
+│   (Backup Hotspots, First Aid, Scoring)     (Water, Tea/Coffee, Snacks)     │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 4. Post-Event Wrap-up (T+24 Hours)
+## 2. Master Operational Timeline
 
-- [ ] Send thank-you emails and certificates to judges, mentors, and sponsors.
-- [ ] Publish official event recap, photos, and project highlights on community channels.
-- [ ] Share winning repositories in the community showcase gallery.
-- [ ] Send post-event feedback forms to all participants to guide future editions.
+```mermaid
+timeline
+    title Organizer Milestone Execution
+    section Pre-Event (Oct 24 - Oct 29)
+        Venue confirmation : Book Innovation Lab
+        Registration Launch : Open Google Form / Devfolio
+        Mentor & Judge Invites : Confirm 4 mentors & 3 judges
+    section Eve of Sprint (Friday, 30 Oct)
+        Hardware & AV Dry Run : Test HDMI, audio, 2 backup 5G hotspots
+        Power strip deployment : 1 surge-protected strip per team table
+        Swag & Badge Printing : Print participant IDs & WiFi cards
+    section Event Day (Saturday, 31 Oct)
+        09:00 AM : Check-in desk ready & Wi-Fi verified
+        10:00 AM : Opening ceremony & problem release
+        12:15 PM : Mentor check-in round 1
+        01:00 PM : Refreshment break coordination
+        02:45 PM : 15-minute code freeze alert
+        03:00 PM : Lock submission form & verify links
+        03:05 PM : Run 3-min pitch timer + 2-min Q&A buzzer
+        03:45 PM : Tabulate scores on master sheet
+        04:00 PM : Award ceremony & closing photos
+    section Post-Event (Sunday, 1 Nov)
+        Certificates & Showcase : Email certificates & post project gallery
+```
+
+---
+
+## 3. Comprehensive Checklist by Category
+
+### A. Power & Electrical (Crucial)
+- [ ] Minimum 1 surge-protected extension cord per table (at least 4 sockets per team).
+- [ ] Backup power supply or UPS circuit identified in case of campus mains trip.
+- [ ] Gaffer tape applied over extension cords crossing walk pathways to prevent tripping.
+
+### B. Networking & Wi-Fi
+- [ ] Dedicated campus SSID configured with captive portal login disabled.
+- [ ] Bandwidth verified: minimum 100 Mbps symmetric connection.
+- [ ] 2 portable 5G mobile Wi-Fi hotspots charged and stationed at the organizer desk.
+
+### C. Audio/Visual & Stage
+- [ ] Main display projector tested with HDMI and USB-C adapters.
+- [ ] Presentation clicker and 2 cordless microphones with fresh AA batteries.
+- [ ] Visual countdown timer app loaded on the primary display.
+- [ ] 3-minute pitch warning bell / sound effect tested.
+
+### D. Mentorship & Judging Operations
+- [ ] Mentor table assignments finalized (1 mentor per 5–6 teams).
+- [ ] Digital scoring spreadsheet shared with judges with permissions verified.
+- [ ] Physical backup printouts of [Judging Scorecard Template](../templates/judging-scorecard.md) available at the judges' table.
+
+### E. Hospitality & Emergency
+- [ ] 2 water dispensers with paper cups and trash bins positioned away from electronics.
+- [ ] Tea/coffee and packaged snacks arranged for the 1:00 PM break.
+- [ ] First-aid kit stocked (paracetamol, bandages, antacids, sanitizer).
+- [ ] Campus security notified of event timings (10:00 AM to 4:30 PM).
+
+---
+
+## 4. Emergency Escalation Contacts
+
+| Role | Responsibility | Contact Name | Channel |
+|---|---|---|---|
+| **Lead Organizer** | Overall operations & crisis escalation | [Name] | Phone / WhatsApp |
+| **Technical Lead** | Wi-Fi, power extensions, projector HDMI | [Name] | Walkie / WhatsApp |
+| **Judging Coordinator** | Timekeeping, score tabulation, ties | [Name] | WhatsApp |
+| **Hospitality Lead** | Snacks, water, medical kit | [Name] | WhatsApp |
+
+---
+
+## 5. Next Steps
+
+- Share evaluation guidelines with judges: **[Judging Criteria](judging-criteria.md)**
+- Review submission rules for participants: **[Submission Guidelines](submission-guidelines.md)**
