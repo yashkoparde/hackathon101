@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="public/banner.png" alt="Hackathon Playbook Banner" />
-
   # Hackathon Playbook
 
   A practical, builder-first handbook to learning, scoping, building, and pitching winning projects — from first-time developers to seasoned hackathon teams.
