@@ -1,13 +1,4 @@
----
-title: Hackathon Playbook
-author: yashkoparde
-last_updated: 2026-10-24
----
-
-<div align="center">
-  <img src="public/banner.png" alt="Hackathon Playbook Banner" />
-
-  # 🏆 Hackathon Playbook
+ # 🏆 Hackathon Playbook
 
   A practical, builder-first guide to learning, building, and competing in hackathons — from your first lines of code to deploying real MVPs.
 </div>
