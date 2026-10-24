@@ -8,7 +8,7 @@
 - **Visual:** High-contrast logo, project name, memorable tagline.
 - **Header:** `[Project Name]` — *The `[X]` for `[Y]`*
 - **Sub-bullets:**
-  - Team Name: `[e.g., Team INVICTUS Alpha]`
+  - Team Name: `[e.g., Team Alpha]`
   - Track: `[e.g., Campus Innovation]`
   - Presenters: `[Names of teammates]`
 - **Speaker Cue:** *"Good morning judges. Every year, over 5,000 first-year students on our campus struggle with [pain point]. Today, we built [Project Name] to solve this."*

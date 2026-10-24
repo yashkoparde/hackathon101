@@ -1,8 +1,8 @@
-# INVICTUS Mini Hackathon: Event Overview
+# Mini Hackathon: Event Overview
 
 > **A beginner-friendly, high-velocity build sprint where students turn real-world problems into working MVPs.**
 
-The **INVICTUS Mini Hackathon** is the operational flagship event of the INVICTUS builder community. Designed specifically to lower the barrier to entry for early-stage engineering students (including first-year undergraduates), this format combines rapid prototyping, active mentorship, and structured evaluation.
+The **Mini Hackathon** is the operational flagship event of the builder community. Designed specifically to lower the barrier to entry for early-stage engineering students (including first-year undergraduates), this format combines rapid prototyping, active mentorship, and structured evaluation.
 
 ---
 
@@ -18,7 +18,7 @@ The **INVICTUS Mini Hackathon** is the operational flagship event of the INVICTU
 1. A live public GitHub repository with clear setup documentation.
 2. A working functional prototype (web, mobile, script, or hardware dashboard).
 3. A 7-slide pitch deck and structured presentation experience.
-4. Direct feedback from evaluators and access to the INVICTUS builder network.
+4. Direct feedback from evaluators and access to the builder network.
 
 ---
 
@@ -41,7 +41,7 @@ Teams choose one track during registration:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                   INVICTUS MINI HACKATHON TRACKS                       │
+│                   Hackathon MINI HACKATHON TRACKS                       │
 ├─────────────────────┬───────────────────────────┬──────────────────────┤
 │ 1. CAMPUS & EDTECH  │ 2. CIVIC & SUSTAINABILITY │ 3. AI & INTELLIGENCE │
 │ Tools that improve  │ Solutions for local waste,│ Agents, data parsing,│

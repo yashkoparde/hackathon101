@@ -1,4 +1,4 @@
-# INVICTUS Mini Hackathon: Judging Criteria & Rubric
+# Mini Hackathon: Judging Criteria & Rubric
 
 > "Working code beats polished slides. Clear problem empathy beats unnecessary buzzwords."
 

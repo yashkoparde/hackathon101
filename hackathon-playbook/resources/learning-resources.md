@@ -71,4 +71,4 @@ GROQ_API_KEY=your_groq_api_key_here
 ## 4. Next Steps
 
 - Explore iNSIGHTS AI capabilities: **[iNSIGHTS AI Deep Dive](insights-ai.md)**
-- Review operational rules: **[INVICTUS Rules & Guidelines](../mini-hackathon/rules-and-guidelines.md)**
+- Review operational rules: **[Rules & Guidelines](../mini-hackathon/rules-and-guidelines.md)**

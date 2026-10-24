@@ -1,4 +1,4 @@
-# INVICTUS Mini Hackathon: Event Timeline
+# Mini Hackathon: Event Timeline
 
 > A structured breakdown of phases and milestones to ensure teams pace themselves and ship before the deadline.
 

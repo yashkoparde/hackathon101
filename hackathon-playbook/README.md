@@ -1,8 +1,8 @@
-# INVICTUS Hackathons Playbook
+# Hackathon Playbook
 
 > A practical, builder-first guide to learning, building, and competing in hackathons — from your first lines of code to deploying real MVPs.
 
-Welcome to the **INVICTUS Hackathons Playbook**. This repository serves as the official handbook and operational manual for student developers, organizers, and mentors across INVICTUS events and competitive hackathons worldwide.
+Welcome to the **Hackathon Playbook**. This repository serves as the official handbook and operational manual for student developers, organizers, and mentors across hackathons and sprint events and competitive hackathons worldwide.
 
 ```
        [ Discover ]  ───►  [ Explore ]  ───►  [ Build ]  ───►  [ Ship ]
@@ -16,7 +16,7 @@ Welcome to the **INVICTUS Hackathons Playbook**. This repository serves as the o
 Quick-access directory to all modules, operating procedures, and ready-to-use templates:
 
 ```
-invictus-hackathons-playbook/
+hackathon-playbook/
 ├── guides/               # Core student curriculum & methodology
 ├── resources/            # Tools, platforms, and iNSIGHTS AI integration
 ├── mini-hackathon/       # Operational manual for hosting events
@@ -75,5 +75,5 @@ A hackathon project doesn't have to end at the submission deadline:
 ---
 
 <div align="center">
-  <sub>Built with pride by the <b>INVICTUS Club</b>. Driven by curiosity, fueled by caffeine, and shipped on GitHub.</sub>
+  <sub>Built with pride by the <b>Hackathon Community</b>. Driven by curiosity, fueled by caffeine, and shipped on GitHub.</sub>
 </div>

@@ -1,8 +1,8 @@
-# INVICTUS Mini Hackathon: Organizer Checklist
+# Mini Hackathon: Organizer Checklist
 
 > "Flawless hackathons do not happen by accident; they happen because every power strip, mentor schedule, and scoring link was tested 48 hours in advance."
 
-This checklist is the operational playbook for INVICTUS lead organizers, track leads, and student coordinators executing mini hackathons and weekend build sprints.
+This checklist is the operational playbook for lead organizers, track leads, and student coordinators executing mini hackathons and weekend build sprints.
 
 ---
 
@@ -68,6 +68,6 @@ This checklist is the operational playbook for INVICTUS lead organizers, track l
 ## 4. Post-Event Wrap-up (T+24 Hours)
 
 - [ ] Send thank-you emails and certificates to judges, mentors, and sponsors.
-- [ ] Publish official event recap, photos, and project highlights on INVICTUS social channels.
+- [ ] Publish official event recap, photos, and project highlights on community channels.
 - [ ] Share winning repositories in the community showcase gallery.
 - [ ] Send post-event feedback forms to all participants to guide future editions.

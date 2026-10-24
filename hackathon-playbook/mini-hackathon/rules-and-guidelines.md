@@ -1,8 +1,8 @@
-# INVICTUS Mini Hackathon: Rules & Guidelines
+# Mini Hackathon: Rules & Guidelines
 
 > "Build ethically, collaborate generously, and let working software speak for itself."
 
-To maintain a competitive, fair, and enriching learning atmosphere, all participants in the INVICTUS Mini Hackathon must adhere to the following rules.
+To maintain a competitive, fair, and enriching learning atmosphere, all participants in the Mini Hackathon must adhere to the following rules.
 
 ---
 
@@ -35,17 +35,17 @@ ALLOWED:                                FORBIDDEN:
 
 - **Responsible AI Usage:** If utilizing Generative AI tools (ChatGPT, GitHub Copilot, iNSIGHTS AI), teams must be able to explain the underlying logic and system architecture. The team must own the engineering decisions.
 - **Data Privacy & Scraping:** Projects scraping external websites or user data must comply with standard privacy ethics and robots.txt constraints. Do not harvest sensitive personal information or proprietary college databases without permission.
-- **Intellectual Property:** Teams retain 100% full intellectual property (IP) and ownership of everything they create during INVICTUS events. All code should be open-sourced under an MIT or Apache 2.0 license.
+- **Intellectual Property:** Teams retain 100% full intellectual property (IP) and ownership of everything they create during hackathons and sprint events. All code should be open-sourced under an MIT or Apache 2.0 license.
 
 ---
 
 ## 4. Code of Conduct & Harassment Policy
 
-INVICTUS is dedicated to providing a safe, inclusive, and harassment-free environment for everyone, regardless of gender, sexual orientation, disability, physical appearance, race, or religion:
+Hackathon is dedicated to providing a safe, inclusive, and harassment-free environment for everyone, regardless of gender, sexual orientation, disability, physical appearance, race, or religion:
 
 - **Professionalism:** Treat fellow participants, mentors, organizers, and judges with mutual respect.
 - **Zero Tolerance:** Intimidation, harassment, offensive comments, or unwelcome personal advances will result in immediate expulsion from the venue without refund.
-- **Reporting:** Any participant experiencing or witnessing misconduct should immediately notify an event organizer wearing the official INVICTUS badge.
+- **Reporting:** Any participant experiencing or witnessing misconduct should immediately notify an event organizer wearing the official organizer badge.
 
 ---
 

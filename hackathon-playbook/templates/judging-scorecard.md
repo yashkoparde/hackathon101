@@ -1,4 +1,4 @@
-# Template: INVICTUS Judging Scorecard
+# Template: Judging Scorecard
 
 > Official evaluation scorecard for judges, mentors, and track evaluators during live project presentations.
 

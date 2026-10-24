@@ -89,17 +89,17 @@ Build your core prototype. In your pitch presentation, explicitly show how your 
 
 ---
 
-## 4. INVICTUS Event Hands-On Guidelines
+## 4. Event Hands-On Guidelines
 
-When participating in an INVICTUS hackathon or workshop:
+When participating in an Hackathon hackathon or workshop:
 
 1. **Live Verified Features Only:** Use tools currently active and accessible on [insights-ai.info](https://insights-ai.info).
 2. **Log What You Used:** Include an *"Intelligence & Research"* section in your project `README.md` noting the queries, documents parsed, or predictions generated.
-3. **Campus Ambassador Support:** Reach out to the INVICTUS / iNSIGHTS AI Campus Ambassadors present at the venue if you need guidance with API tokens, platform access, or tool workflows.
+3. **Campus Ambassador Support:** Reach out to the iNSIGHTS AI Campus Ambassadors present at the venue if you need guidance with API tokens, platform access, or tool workflows.
 
 ---
 
 ## 5. Next Steps
 
-- Explore the INVICTUS Mini Hackathon guide: **[Event Overview](../mini-hackathon/event-overview.md)**
+- Explore the Mini Hackathon guide: **[Event Overview](../mini-hackathon/event-overview.md)**
 - Use the analysis worksheet: **[Problem Statement Template](../templates/problem-statement.md)**

@@ -101,4 +101,4 @@ Competitive hackathons require an application review. Here is what selection com
 ## 5. Next Steps
 
 - Move into problem discovery: **[Research & Ideation](research-and-ideation.md)**
-- Check the official operating manual: **[INVICTUS Mini Hackathon Overview](../mini-hackathon/event-overview.md)**
+- Check the official operating manual: **[Mini Hackathon Overview](../mini-hackathon/event-overview.md)**

@@ -1,4 +1,4 @@
-# INVICTUS Mini Hackathon: Submission Guidelines
+# Mini Hackathon: Submission Guidelines
 
 > "If it isn't documented and submitted before the portal timer reaches 00:00, it doesn't exist."
 
