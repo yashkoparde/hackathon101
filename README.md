@@ -1,5 +1,5 @@
 <div align="center">
-  # Hackathon Playbook
+  #Hackathon Playbook
 
   A practical, builder-first handbook to learning, scoping, building, and pitching winning projects — from first-time developers to seasoned hackathon teams.
 
